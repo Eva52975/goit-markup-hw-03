@@ -136,13 +136,13 @@ ul {
 /* ==================HERO======================== */
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  margin: 0 auto;
 }
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -162,6 +162,7 @@ ul {
   color: #fff;
   cursor: pointer;
   border-radius: 4px;
+  border: none;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -169,6 +170,8 @@ ul {
   margin: 0 auto;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -180,8 +183,8 @@ ul {
 
 /* =================ADVANTAGES======================== */
 
-.advantages {
-}
+/* .advantages {
+} */
 
 .advantages-container {
   display: flex;
@@ -243,18 +246,22 @@ ul {
 
 .list-team {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 32px;
   text-align: center;
   flex-basis: calc((100% - 72px) / 3);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.container-info-team {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-subtitle {
@@ -264,7 +271,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 32px;
+  text-align: center;
 }
 
 .team-text {
@@ -273,6 +280,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* ================================ */
